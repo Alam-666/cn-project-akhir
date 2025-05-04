@@ -9,15 +9,24 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"> -->
     <link rel="stylesheet"href="css/bootstrap.min.css">
 
+    <!--slider menu-->
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <!--End slider-->
+    
+
+
+
     <!--custom style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
 <body>
     
     <!--Nav menu-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="topMenu">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="logo" src="assets/logo1.png" /></a>
+          <a class="navbar-brand" href="#"><img class="logo" src="assets/makanan-jadoel-high-resolution-logo 1.jpg" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -50,7 +59,9 @@
             </form> -->
           </div>
         </div>
-      </nav>
+        </nav>
+      </div>
+    </div>
     <!--End Nav menu-->
 
       <!--hero section-->
@@ -98,17 +109,59 @@
                     <p> only fresh and french product </p>
                 </div>
             </div>
+          </div>
+        </div>
       </div>
       <!--end hero section-->
 
-<!--Maps-->
-<div class="Maps">
-  <div class="container">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31731.95817505245!2d106.74871807431639!3d-6.198265499999983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f719e9dc03fd%3A0x6bae50ad0aedfa92!2sYudi.butcher!5e0!3m2!1sid!2sid!4v1746242286556!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
-</div>
-
-<!--End Maps-->
+      <!--Slider Menu-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+              <div class="sliderWithThumbnail">
+              <div class="splide" id="main-slider" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide"><img src="assets/istockphoto-1160359578-612x612.jpg" ></li>
+                    <li class="splide__slide"><img src="assets/istockphoto-1444350086-612x612.jpg" ></li>
+                    <li class="splide__slide"><img src="assets/istockphoto-1455424670-612x612.jpg"></li>
+                    <li class="splide__slide"><img src="assets/istockphoto-1489628748-612x612.jpg" ></li>
+                    <li class="splide__slide"><img src="assets/istockphoto-624460848-2048x2048.jpg" ></li>
+                    <li class="splide__slide"><img src="assets/34411.jpg"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          
+          <div class="sliderWithThumbnail">
+            <div class="container">
+              <div class="splide" id="thumbnail-slider" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide"><img src="assets/istockphoto-1160359578-612x612.jpg" ></li>
+                    <li class="splide__slide"><img src="assets/istockphoto-1444350086-612x612.jpg" ></li>
+                    <li class="splide__slide"><img src="assets/istockphoto-1455424670-612x612.jpg"></li>
+                    <li class="splide__slide"><img src="assets/istockphoto-1489628748-612x612.jpg" ></li>
+                    <li class="splide__slide"><img src="assets/istockphoto-624460848-2048x2048.jpg" ></li>
+                    <li class="splide__slide"><img src="assets/34411.jpg"></li>
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    
+      
+        
+          
+          
+        
+      
+      <!--main slider-->
+      <!--Slider Menu-->
 
 <!--Speialiti-->
 <div class="spesialiti">
@@ -143,11 +196,30 @@
   </div>
 </div>
 
+<!--Maps-->
+<div class="Maps">
+  <div class="container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31731.95817505245!2d106.74871807431639!3d-6.198265499999983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f719e9dc03fd%3A0x6bae50ad0aedfa92!2sYudi.butcher!5e0!3m2!1sid!2sid!4v1746242286556!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+<!--End Maps-->
+
 <!--Bootstrap js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 
+
+    <!--splid js-->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
     <!--myjs-->
     <script src="js/index.js"></script>
+
     
+
+    </script>
+    <!--end splid js-->
+
+
   </body>
 </html>

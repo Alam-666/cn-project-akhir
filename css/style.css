@@ -1,5 +1,19 @@
 .logo {
-    width: 200;
+    width: 200px;
+}
+
+.topMenu{
+    padding-top: 30px;
+}
+
+.Menu{
+    padding: 100px;
+    .Menu{
+
+        img{
+            width: 100%;
+        }
+    }
 }
 
 .heroSection{
@@ -9,6 +23,7 @@
             width: 100%;
         }
     }
+
 
     .heroCaption{
         display: flex;
@@ -32,13 +47,25 @@
         }
     }
 }
+
+.Maps {
+    margin-top: 30px;
+    padding:30px 0px ;
+    
+}
  
 .nearestRestaurant{
     margin-top: 30px;
     background: #dedede;
-    padding: :100px 0px;
+    padding:30px 0px;
 }
-
+.sliderWithThumbnail{
+    background: #ffe45c;
+    padding: 30px;
+        img{
+            height: 30px;
+        }
+}
 
     /*MEDIA QUERY*/
     @media only screen and (max-width:991px) {
